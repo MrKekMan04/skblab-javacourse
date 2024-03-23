@@ -1,0 +1,6 @@
+app:
+  some-list: 4, 5, 6
+  env-var: ${ENV_VAR:default}
+spring:
+  application:
+    name: Test Application
