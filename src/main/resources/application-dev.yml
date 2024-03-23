@@ -1,0 +1,6 @@
+app:
+  some-list: 7, 8, 9
+  env-var: ${ENV_VAR:default}
+spring:
+  application:
+    name: Development Application
