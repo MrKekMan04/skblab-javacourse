@@ -1,1 +1,7 @@
-
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/skb_lab}
+    username: ${DB_USERNAME:postgres}
+    password: ${DB_USERNAME:postgres}
+  liquibase:
+    enabled: false
